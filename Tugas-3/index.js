@@ -39,11 +39,11 @@ console.log('Kata Kelima: ' + tulisanKelima);
 var nilai = 98
 if (nilai >= 80) {
     console.log("Indeks A")
-} else if (nilai >= 70) {
+} else if (nilai >= 70 && nilai < 80) {
     console.log('Indeks B')
-} else if (nilai >= 60) {
+} else if (nilai >= 60 && nilai < 70) {
     console.log('Indeks C')
-} else if (nilai >= 50) {
+} else if (nilai >= 50 && nilai < 60) {
     console.log('Indeks D')
 } else {
     console.log('Indeks E')
